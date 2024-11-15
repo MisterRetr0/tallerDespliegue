@@ -9,24 +9,23 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
       </div>
-      <h1>Salut Monde!</h1>
+      <h1> Hola Mundo! </h1>
+      <h2> Hello World! </h2>
+      <h3> Salut Monde! </h3>
+      <hr />
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          La cuenta es {count}
-        </button>
-        <p>
-          Hello World!
-        </p>
+        <h2>
+          Taller de despliegue
+        </h2>
       </div>
       <p className="read-the-docs">
-        Hola Mundo
+        Nombres de los integrantes: 
+        <br></br> 
+        <hr />
+        <br></br> 
+        <b>Alejandro Florez Mesa 🏀🇨🇴 - Camilo Jimenez Loaiza🕹️  🇨🇴 - Tomas Romero Eusse⚽ 🇨🇴</b>
       </p>
     </>
   )
